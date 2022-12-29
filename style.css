@@ -1,0 +1,515 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background-image: url("img/stars.jpg");
+}
+
+.logoAlura{
+    position: absolute;
+    left: 7%;
+    top: 5%;
+    bottom: 0%;
+}
+
+.cajaTexto{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 190px;
+    top: 122px;
+}
+
+.textoArea {
+    width: 690px;
+    height: 500px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    padding: 25px;
+    border: solid;
+    border-color: white;
+    background: rgb(0 0 0 / 8%);
+    color: #ffffff;
+    resize: none;
+    outline: none;
+    box-shadow: 0px 0px 30px 0px #ffffff;
+    border-radius: 20px;
+}
+
+.advertencia {
+    position: relative;
+    width: 577px;
+    height: 48px;
+    left: 190px;
+    top: 725px;
+}
+
+.logoAdv{
+    
+    float: left;
+
+}
+
+.textoAdv {
+    position: relative;
+    left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+  
+}
+
+.cajaBotones {
+    position: relative;
+    width: 900px;
+    height: 48px;
+    left: 204px;
+    top: 746px;
+}
+
+.boton1 {
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border: solid;
+    border-color: #5b65eb;
+    background: rgb(0 0 0 / 8%);
+    border-radius: 24px;
+    color: #5b65eb;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 30px 0px #7079ef;
+    cursor: pointer;
+}
+
+.boton2 {
+    position: relative;
+    left: 20px;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border: solid;
+    border-color: #2cff84;
+    background: rgb(0 0 0 / 8%);
+    border-radius: 24px;
+    color: #2cff84;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 30px 0px rgb(99 242 83);
+    cursor: pointer;
+}
+
+.cajaTraduccion {
+    position: absolute;
+    width: 350px;
+    height: 867px;
+    left: 1000px;
+    top: 40px;
+    border: solid;
+    border-color: white;
+    background: rgb(0 0 0 / 8%);
+    box-shadow: 0px 0px 30px 0px #ffffff;
+    border-radius: 32px;
+}
+
+.muneco {
+    position: absolute;
+    left: 59px;
+    top: 258px;
+    width: 245px;
+}
+
+.nave {
+    position: absolute;
+    left: 94px;
+    top: 520px;
+    width: 168px;
+}
+
+.mensaje {
+    position: absolute;
+    left: 10px;
+    top: 550px;
+    width: 336px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    background: rgb(0 0 0 / 8%);
+    resize: none;
+    outline: none;
+}
+
+.ingresaTexto {
+    position: absolute;
+    top: 616px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.boton3{
+    position:relative;
+    left: 60px;
+    top: 670px;
+    padding: 24px;
+    width: 228px;
+    height: 67px;
+
+    border: solid;
+    border-color: #ffffff;
+    background: rgb(0 0 0 / 8%);
+    border-radius: 24px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 0px 0px 30px 0px #ffffff;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:820px) {
+    
+    .logoAlura {
+        position: absolute;
+        top: 100px;
+        width: 56px;
+    }
+
+    .cajaTexto {
+        position: absolute;
+        width: 577px;
+        height: 48px;
+        left: 74px;
+        top: 288px;
+    }
+
+    .textoArea {
+        width: 1230px;
+        height: 804px;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 150%;
+        padding: 25px;
+        border: solid;
+        border-color: white;
+        background: rgb(0 0 0 / 8%);
+        color: #ffffff;
+        resize: none;
+        outline: none;
+        box-shadow: 0px 0px 30px 0px #ffffff;
+        border-radius: 20px;
+    }
+
+    .advertencia {
+        position: relative;
+        width: 932px;
+        height: 48px;
+        left: 73px;
+        top: 1207px;
+    }
+
+    .logoAdv {
+        float: left;
+        width: 30px;
+    }
+
+    .textoAdv {
+        position: relative;
+        left: 14px;
+        top: -5px;
+        font-weight: bold;
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    .cajaBotones {
+        position: relative;
+        width: 1028px;
+        height: 48px;
+        left: 72px;
+        top: 1241px;
+    }
+
+    .boton1 {
+        /* padding: 59px; */
+        /* position: relative; */
+        /* left: 0px; */
+        width: 618px;
+        height: 100px;
+        border: solid;
+        border-color: #5b65eb;
+        background: rgb(0 0 0 / 8%);
+        border-radius: 24px;
+        color: #5b65eb;
+        font-size: 35px;
+        font-weight: bolder;
+        box-shadow: 0px 0px 30px 0px #7079ef;
+        cursor: pointer;
+    }
+
+    .boton2 {
+        position: relative;
+        left: 651px;
+        padding: 24px;
+        width: 618px;
+        height: 100px;
+        top: -99px;
+        border: solid;
+        border-color: #2cff84;
+        background: rgb(0 0 0 / 8%);
+        border-radius: 24px;
+        color: #2cff84;
+        font-size: 35px;
+        font-weight: bolder;
+        box-shadow: 0px 0px 30px 0px rgb(99 242 83);
+        cursor: pointer;
+    }
+
+    .cajaTraduccion {
+        position: absolute;
+        width: 1271px;
+        height: 373px;
+        left: 74px;
+        top: 1448px;
+        border: solid;
+        border-color: white;
+        background: rgb(0 0 0 / 8%);
+        box-shadow: 0px 0px 30px 0px #ffffff;
+        border-radius: 32px;
+    }
+
+    .muneco {
+        position: absolute;
+        left: 578px;
+        top: 237px;
+        width: 105px;
+    }
+
+    .mensaje {
+        position: absolute;
+        left: 320px;
+        top: 49px;
+        width: 598px;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 120%;
+        text-align: center;
+        color: #ffffff;
+        border: none;
+        background: rgb(0 0 0 / 8%);
+        resize: none;
+        outline: none;
+    }
+
+    .ingresaTexto {
+        position: absolute;
+        left: 263px;
+        top: 139px;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 150%;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .nave {
+        position: absolute;
+        left: 94px;
+        top: 520px;
+        width: 0px;
+    }
+
+    .boton3 {
+        position: relative;
+        left: 489px;
+        top: 260px;
+        /* padding: 24px; */
+        width: 269px;
+        height: 83px;
+        border: solid;
+        border-color: #ffffff;
+        background: rgb(0 0 0 / 8%);
+        border-radius: 24px;
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: bolder;
+        box-shadow: 0px 0px 30px 0px #ffffff;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:480px) {
+    
+    .logoAlura{
+        width: 100px;
+    }
+
+    .cajaTexto {
+        position: absolute;
+        width: 577px;
+        height: 48px;
+        left: 74px;
+        top: 434px;
+    }
+
+    .textoArea {
+        width: 1230px;
+        height: 1072px;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 150%;
+        padding: 25px;
+        border: solid;
+        border-color: white;
+        background: rgb(0 0 0 / 8%);
+        color: #ffffff;
+        resize: none;
+        outline: none;
+        box-shadow: 0px 0px 30px 0px #ffffff;
+        border-radius: 20px;
+    }
+
+    .advertencia {
+        position: relative;
+        width: 932px;
+        height: 48px;
+        left: 73px;
+        top: 1646px;
+    }
+
+    .logoAdv {
+        float: left;
+        width: 50px;
+    }
+
+    .textoAdv {
+        position: relative;
+        left: 34px;
+        top: -5px;
+        font-weight: bold;
+        font-size: 50px;
+        color: #ffffff;
+    }
+
+    .cajaBotones {
+        position: relative;
+        width: 900px;
+        height: 48px;
+        left: 72px;
+        top: 1718px;
+    }
+
+    .boton1 {
+        /* padding: 59px; */
+        /* position: relative; */
+        /* left: 0px; */
+        width: 1271px;
+        height: 199px;
+        border: solid;
+        border-color: #5b65eb;
+        background: rgb(0 0 0 / 8%);
+        border-radius: 24px;
+        color: #5b65eb;
+        font-size: 60px;
+        font-weight: bolder;
+        box-shadow: 0px 0px 30px 0px #7079ef;
+        cursor: pointer;
+    }
+
+    .boton2 {
+        position: relative;
+        left: 4px; 
+        padding: 24px;
+        width: 1271px;
+        height: 199px;
+        top: 80px;
+        border: solid;
+        border-color: #2cff84;
+        background: rgb(0 0 0 / 8%);
+        border-radius: 24px;
+        color: #2cff84;
+        font-size: 60px;
+        font-weight: bolder;
+        box-shadow: 0px 0px 30px 0px rgb(99 242 83);
+        cursor: pointer;
+    }
+
+    .cajaTraduccion {
+        position: absolute;
+        width: 1271px;
+        height: 645px;
+        left: 74px;
+        top: 2348px;
+        border: solid;
+        border-color: white;
+        background: rgb(0 0 0 / 8%);
+        box-shadow: 0px 0px 30px 0px #ffffff;
+        border-radius: 32px;
+    }
+
+    .muneco {
+        position: absolute;
+        left: 511px;
+        top: 72px;
+        width: 245px;
+    }
+
+    .mensaje {
+        position: absolute;
+        left: 356px;
+        top: 328px;
+        width: 598px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 120%;
+        text-align: center;
+        color: #ffffff;
+        border: none;
+        background: rgb(0 0 0 / 8%);
+        resize: none;
+        outline: none;
+    }
+
+    .ingresaTexto {
+        position: absolute;
+        left: 116px;
+        top: 449px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 150%;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .nave {
+        position: absolute;
+        left: 94px;
+        top: 520px;
+        width: 0px;
+    }
+
+    .boton3 {
+        position: relative;
+        left: 432px;
+        top: 435px;
+        /* padding: 24px; */
+        width: 406px;
+        height: 147px;
+        border: solid;
+        border-color: #ffffff;
+        background: rgb(0 0 0 / 8%);
+        border-radius: 24px;
+        color: #ffffff;
+        font-size: 50px;
+        font-weight: bolder;
+        box-shadow: 0px 0px 30px 0px #ffffff;
+        cursor: pointer;
+    }
+}

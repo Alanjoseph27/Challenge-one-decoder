@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <meta name="author" content="Alan Joseph Rico Conde">
+        <title>Encriptador y Desencriptador Alura</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <script src="js/javascript.js"></script>
+    </head>
+
+    <body>
+        <header class="cajaLogo">
+            <img class="logoAlura" src="img/Vector.png">
+        </header>
+        <section class="cajaTexto">
+            <textarea class="textoArea" id="texto" placeholder="ingrese el texto aqui..."></textarea>
+        </section>
+        <section class="advertencia">
+            <img class="logoAdv" src="img/Vectoradv.png">
+            <p class="textoAdv">Solo letras minúsculas y sin acentos</p>
+        </section>
+        <section class="cajaBotones">
+            <input class="boton1" type="button" onclick="encriptar()" value="Encriptar">
+            <input class="boton2" type="button" onclick="desencriptar()" value="Desencriptar">
+        </section>
+        <section class="cajaTraduccion">
+            <img class="muneco" id="muneco" src="img/Alien.png">
+            <textarea id="mensajeTrad" class="mensaje" readonly>Ningún mensaje fue encontrado</textarea>
+            <!--<p id="mensajeTrad" class="mensaje">Ningún mensaje fue encontrado</p>-->
+            <p  id="ingresaTexto" class="ingresaTexto">Ingresa el texto que desees encriptar o desencriptar</p>
+           <!--<input class="boton3" id="boton3" style="visibility:hidden" type="button" onclick="copiar()" value="Copiar">--> 
+           <img class="nave" id="nave" style="visibility:hidden" src="img/nave.png"> 
+           <button class="boton3" id="boton3" style="visibility:hidden" onclick="copiar()">Copiar</button>
+        </section>
+        
+    </body>
+</html>
+
